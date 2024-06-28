@@ -14,7 +14,7 @@ main{
     width:100% ;
     display: flex;
     flex-direction: column;
-    
+    gap : 30px;
 }
 
 img{
@@ -64,13 +64,24 @@ img{
     gap : 20px ;
     
 }
+
+.second h2{
+    padding: 10px;
+    border-bottom: 5px solid #973131;
+}
 .intro{
     width: 80%;
     border: 5px solid #973131;
-    /* background-color: rgb(122, 122, 14); */
     padding: 20px;
     border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center ;
 
+}
+.intro p{
+    width: fit-content;
+    height: fit-content;
+    
 }
 .contact{
     width: 100%;
@@ -87,21 +98,18 @@ button{
     /* padding: 10px; */
     border-radius: 20px;
     background-color: rgb(151, 49, 49);
-    /* border: 2px solid white; */
     padding: 10px 20px 10px 20px;
 
 }
 button:hover{
     background-color: #fff;
     border: 2px solid rgb(151, 49, 49);
-    /* color: rgb(151, 49, 49); */
     color: rgb(151, 49, 49);
 }
 a{
     color: black;
     font-weight: 700;
     text-decoration: none;
-    /* background-color:#212121; */
     lighting-color: none;
 }
 a:hover{
@@ -109,4 +117,23 @@ a:hover{
 
 ul{
     list-style:decimal;
+}
+
+@media (max-width : 700px) {
+    .first{
+        flex-direction: column;
+        height: 50%;
+        gap:20px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .second h2{
+        font-size: 30px;
+    }
+    .intro{
+        width: 95%;
+        font-size: x-large;
+        font-weight: 600;
+    }
 }
