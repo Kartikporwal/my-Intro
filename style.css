@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height:100% ;    
+    width:100% ;
+    background-color:rgb(249, 214, 137);
+}
+main{
+    height:100% ;
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    /* margin-top: 30px; */
+}
+.photo{
+    padding-top: 100px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 50px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+
+.first{
+    /* background-color: #c60e0e; */
+    height:40% ;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.second{
+    /* background-color: yellow; */
+    /* height: fit-content; */
+    padding: 20px 10px 0  10px;
+    font-size:xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px ;
+    
+}
+.intro{
+    width: 80%;
+    border: 5px solid #973131;
+    /* background-color: rgb(122, 122, 14); */
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.contact{
+    width: 100%;
+    height: fit-content;
+    padding-left: 10%;
+
+}
+
+button{
+    font-size: large;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+    border-radius: 20px;
+    background-color: rgb(151, 49, 49);
+    /* border: 2px solid white; */
+    padding: 10px 20px 10px 20px;
+
+}
+button:hover{
+    background-color: #fff;
+    border: 2px solid rgb(151, 49, 49);
+    /* color: rgb(151, 49, 49); */
+    color: rgb(151, 49, 49);
+}
+a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    /* background-color:#212121; */
+    lighting-color: none;
+}
+a:hover{
+}
+
+ul{
+    list-style:decimal;
+}
